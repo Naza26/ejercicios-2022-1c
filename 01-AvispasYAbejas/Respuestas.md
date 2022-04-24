@@ -5,7 +5,7 @@
   
   **Sobre código repetido**
   
-  Completar revisando el codigo
+  No tuvimos mucho codigo repetido porque nos abstuvimos a hacer el codigo modularizado y al mismo tiempo simple. En nuestro codigo la avispa es la que se encarga de revisar si el habitat es habitable, una vez que verifica que hay comida pone el huevo. Eligimos esta implementacion porque comparamos con la realidad, el habitat no sabe si es habitable o no, la avispa es la que antes de reproducirse chequea que este todo en condiciones, si hubieramos hecho que el habitat se verifique a si misma que es habitable no hubiera tenido sentido, repitiendo que lo hicimos comparado con la realidad y por eso optamos por esa implementacion.
   
   **Sobre código repetido 2**
   
