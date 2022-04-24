@@ -9,5 +9,11 @@
   
   **Sobre código repetido 2**
   
-  Completar revisando el codigo
 
+Si hubiésemos trabajado con lo que vimos la última clase (objetos prototípicos), podríamos haber considerado tener una Avispa “padre” y que esta tuviera objetos hijos asociados (Avispa Oriana, Avispa Ornella, Avispa Polly y la Avispa Ladrona).
+De esta manera, podríamos sacarnos de encima el código “repetido” de tener métodos iguales que responden a distintos objetos. Por ejemplo, intentarReproducirse en nuestro trabajo.
+Para guardar la totalidad de huevos de todas las avispas sin distinción, lo que usamos fue un colaborador interno del Hábitat que nos devolvía la cantidad de huevos a través de un mensaje.
+Luego, para casa huevo genético perteneciente a cada Avispa, lo que hicimos fue crear un diccionario que tenía como clave el tipo de animal que comía como alimento y cómo valor los huevos que generaba.
+Usamos estas claves ya que Oriana y Ornella tenían que tener la misma clave, ellas eran Avispas comedoras de Orugas y Polly era una Avispa comedora de Polillas, con esa distinción hicimos un diccionario de la pinta: huevosConFirmaGenetica = {“comedorasDeXAlimento”: cantidadDeHuevos}
+Y entonces a través de la firma de cada Avispa indexábamos en el diccionario.
+Realmente no sabemos si la implementación está era la más sencilla o no, quizás se podría haber hecho de otra forma, pero haber elegido este approach no nos complicó las cosas a la hora de resolver las pruebas.
