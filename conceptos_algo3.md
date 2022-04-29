@@ -104,3 +104,8 @@ Simbolos (#):
 Es una string que es idéntica (==) a otra string si sus caracteres son iguales.
 Un objeto que es una cadena de texto única. Es algo similar a lo que te imaginas como símbolo conceptualmente.
 Es util para representar un objeto que sólo se diferencia de otro en que no es el mismo, pero que no tiene ningún comportamiento en particular. Como el paquete de chicles acá.
+
+
+Dos simbolos iguales, son identicos
+Dos strings iguales, pueden no ser identicas
+identico = misma instancia, mismo objeto
