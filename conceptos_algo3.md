@@ -97,4 +97,9 @@ Solo las clases hoja deberian tener instancias
 
 Polimorfismo: Si tenemos dos o mas objetos, son polimorficos entre si respecto de un conjunto de mensajes si dichos mensajes son semanticamente iguales. Es decir si los metodos asociados son iguales (tienen el mismo nombre de mensaje, hacen la misma funcion en la vida real aunque el metodo este escrito de manera diferente, tambien el resultado de lo que devuelven deberia ser lo mismo)
 
-Favorecer el uso de polimorfismo por sobre los Ifs
+Favorecer el uso de polimorfismo por sobre los Ifs.
+
+Simbolos (#):
+
+Es una string que es idéntica (==) a otra string si sus caracteres son iguales.
+Un objeto que es una cadena de texto única. Es algo similar a lo que te imaginas como símbolo conceptualmente.
