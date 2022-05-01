@@ -18,7 +18,7 @@ Las formas que tenemos de representar entes de la realidad, es decir, objetos co
 En la realidad tenemos objetos concretos y esas cosas concretas pueden mappearse como instancias en un modelo. Cabe mencionar que es distinta la idea que tenemos de cada objeto en la realidad versus ese objeto concreto en si mismo.
 La manera de representar la idea de ese objeto en la realidad a Smalltalk surge a traves de utilizar clases en el modelo.
 
-Modelo         -        Realidad
+Modelo   - - - - - - Realidad
 
 Instancias    < - - -   Objetos Concretos
 
@@ -32,7 +32,7 @@ Clases   < - - - Idea de Objetos
 
 **Extras:**
 
-Planes de Mejora en el Modelo.
+*Planes de Mejora en el Modelo.*
 
 Notamos en el modelo dado que, la clase CustomerBook tenia una categoria llamada errorMessages. Habian dos mensajes implementados que eran "customerAlreadyExistsErrorMessage" y "customerCanNotBeEmptyErrorMessage".
 Nosotras creemos que, para que el modelo tenga consistencia, habria que agregar unos mensajes de error mas para poder mostrar luego en las pruebas y para respetar el funcionamiento del modelo en si.
@@ -47,11 +47,11 @@ El primero lo usariamos en el Test 08.
 
 El segundo lo usariamos en los Tests 04 y 07.
 
-Clases vacias deberian ser clases removidas o refactorizadas.
+*Clases vacias deberian ser clases removidas o refactorizadas.*
 
 Notamos que las clases Can´t Suspend y Not Found estan creadas pero vacias y sabemos que la catedra recomendo no estar en esta situacion asi que consideramos que el modelo necesita un refactoring o borrarlas para que no queden vacias. (Ademas confunde al programador, no sabe si las tiene que usar o no).
 
-Optamos por legibilidad.
+*Optamos por legibilidad.*
 
 Optamos por no modificar los mensajes "signalCustomerAlreadyExists" y "signalCustomerNameCannotBeEmpty" ya que la manera en la que tendriamos que resolver no seria mas legible y tampoco simple. Por como esta hecho el modelo, y por las refactorizaciones optamos por dejar esos dos mensajes como vinieron dados.
 
