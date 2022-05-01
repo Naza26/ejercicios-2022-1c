@@ -3,6 +3,8 @@
 
 **Abstraccion de los tests 01 y 02:**
 
+En los test 01 y 02 hay código repetido. Cuando lo extrajeron crearon algo nuevo. Eso es algo que estaba en la realidad y no estaba representado en nuestro código, por eso teníamos código repetido. ¿Cuál es esa entidad de la realidad que crearon?
+
 ...
 
 **Como representar en Smalltalk:**
@@ -10,7 +12,7 @@
 ¿Cuáles son las formas en que podemos representar entes de la realidad en Smalltalk que conocés?
 Es decir, ¿qué cosas del lenguaje Smalltalk puedo usar para representar entidades de la realidad?
 
-Las formas que tenemos de representar entes de la realidad, es decir, objetos concretos que viven en la realidad, podemos representarlo en Smalltalk a traves de instancias.
+Las formas que tenemos de representar entes de la realidad, es decir, objetos concretos que viven en la realidad, es a traves de instancias en Smalltalk.
 En la realidad tenemos objetos concretos y esas cosas concretas pueden mappearse como instancias en un modelo. Cabe mencionar que es distinta la idea que tenemos de cada objeto en la realidad versus ese objeto concreto en si mismo.
 La manera de representar la idea de ese objeto en la realidad a Smalltalk surge a traves de utiliar clases en el Modelo.
 
@@ -23,6 +25,7 @@ Clases   < - - - Idea de Objetos
 
 **Teoria de Naur:**
 
+¿Qué relación hay entre sacar código repetido (creando abstracciones) y la teoría del modelo/sistema (del paper de Naur)?
 ...
 
 **Extra:**
