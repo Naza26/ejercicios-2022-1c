@@ -28,7 +28,8 @@ Clases   < - - - Idea de Objetos
 **Teoria de Naur:**
 
 ¿Qué relación hay entre sacar código repetido (creando abstracciones) y la teoría del modelo/sistema (del paper de Naur)?
-...
+
+Completar...
 
 **Extras:**
 
