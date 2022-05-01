@@ -29,7 +29,8 @@ Clases   < - - - Idea de Objetos
 
 ¿Qué relación hay entre sacar código repetido (creando abstracciones) y la teoría del modelo/sistema (del paper de Naur)?
 
-Completar...
+
+La relacion que hay entre sacar codigo repetido y la teoria es la siguiente, en el paper de Naur se hace incampie en que para que un programa perdure en el tiempo y pueda seguir siendo trabajado debe ser un programa que cuente con documentacion precisa para cuando el creador ya no este, lo que nos lleva a que no solo debe tener una documentacion acorde a lo hecho si no que tambien nuestro codigo debe ser legible, por lo tanto si nosotros usamos codigo repetido y sin abastraciones, perdemos esas buenas practicas que hacen que nuestro codigo lo puedan leer y trabajar otra personas. El texto tambien recalca que la programacion es la produccion de programas que se forman o logran con un cierto tipo de intuicion, entonces si nuestro codigo, nuevamente, no cuenta con legiblidad y abstraccion, entonces si una persona que no conoce el programa intenta leerlo tal vez se le dificulte por falta de intuicion. 
 
 **Extras:**
 
