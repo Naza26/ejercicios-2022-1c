@@ -42,3 +42,9 @@ A la hora de programar la subclase "Complejo", esto nos va a dar la pauta de tod
 
 Romper encapsulamiento esta mal porque se exponen los colaboradores a otros metodos cuando cada uno de ellos deberia ser responsable de sus incumbencias sin tener que mostrar a los otros como estan funcionando los demas métodos. 
 De esta manera se obtiene una correcta asignacion de responsabilidades y se respeta la modularidad de la POO.
+
+**Extra**
+
+Removimos los ifs dentro de Fibonacci utilizando polimorfismo.
+Para esto creamos subclases de Entero y a su vez usamos un mensaje predefinidio en SmallTalk que nos permitia recorrer cada subclase para poder mandar esa subclase (el tipo) a cada llamado. 
+La ventaja cualitativa de esto fue, no solo sacar el codigo repetido que nos generaban los Ifs (ya que lo unico que cambiaba era el tipo de cada subclase) sino que tambien, si en alfun momento necesitamos agregar una nueva subclase, no vamos a tener que agregar un If, esta va a ser recorrida dentro del "subclasses detect" ahorrandonos Ifs, asegurando escalabilidad y mantenibilidad.
