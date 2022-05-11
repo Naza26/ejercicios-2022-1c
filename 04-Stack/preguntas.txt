@@ -1,0 +1,2 @@
+initializa, se puede hacer en instacia o pertenece a clase?
+mensaje de error no funciona, xq?
