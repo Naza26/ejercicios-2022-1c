@@ -1,8 +1,0 @@
-cuando comprobamos con State que la pila isEmpty(), debemos usar el mensaje del objeto OOStack o el de estado? Quien deberia tener esa responsabilidad?
-Es codigo repetido el error description en State? Y si es asi como lo tendriamos que sacar?
-En las subclases de State, cuando levantamos el error, deberia ser self o aStack?
-Son correctos los nombres de la superclase State y sus subclases?
-En sentence finder by prefix, podemos usar el mensaje beginsWith? Tendriamos que aplciar polimorfismo para esos ifs?
-Con respecto al Extra, encontramos que hay un mensaje llamado initializeOfSize: size dentro de OrderedCollection, deberiamos usar algo de ese estilo para extender el modelo?
-Para representar un nuevo stack, tenemos que crear una nueva clase/entidad o trabajar sobre el mismo objeto subclasificando?
-
