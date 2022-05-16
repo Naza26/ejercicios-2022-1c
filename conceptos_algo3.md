@@ -209,3 +209,9 @@ Es util para representar un objeto que sólo se diferencia de otro en que no es 
 Dos simbolos iguales, son identicos
 Dos strings iguales, pueden no ser identicas
 identico = misma instancia, mismo objeto
+
+Si tengo aunque sea un solo mensaje abstracto, entonces toda la clase se convierte en abstracta.
+
+Por ejemplo, como en el caso de la pila limitada e ilimitada veiamos en los test cases que una vez que habiamos subclasificado el OOStack para tener un LimitedOOStack y un UnlimitedOOstack ya no podiamos instanciar la clase como stack := OOStack, teniamos que crear un mensaje de instancia que pudiera incializarnos la subclase que querramos.
+Haciamos algo de la pinta de limitedStack := limitedOOStack createALimitedOOStack: 5 ó unlimitedStack := limitedOOStack createAnUnlimitedOOStack.
+Ese mensaje de clase se encargaba de inicializar la clase con new.
