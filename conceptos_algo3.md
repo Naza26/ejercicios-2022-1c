@@ -215,3 +215,19 @@ Si tengo aunque sea un solo mensaje abstracto, entonces toda la clase se convier
 Por ejemplo, como en el caso de la pila limitada e ilimitada veiamos en los test cases que una vez que habiamos subclasificado el OOStack para tener un LimitedOOStack y un UnlimitedOOstack ya no podiamos instanciar la clase como stack := OOStack, teniamos que crear un mensaje de instancia que pudiera incializarnos la subclase que querramos.
 Haciamos algo de la pinta de limitedStack := limitedOOStack createALimitedOOStack: 5 ó unlimitedStack := limitedOOStack createAnUnlimitedOOStack.
 Ese mensaje de clase se encargaba de inicializar la clase con new.
+
+## **Respuestas a Preguntas Teoricas**
+
+**Cómo representar en Smalltalk**
+
+¿Cuáles son las formas en que podemos representar entes de la realidad en Smalltalk que conocés? Es decir, ¿qué cosas del lenguaje Smalltalk puedo usar para representar entidades de la realidad?
+
+Las formas que tenemos de representar entes de la realidad, es decir, objetos concretos que viven en la realidad, es a traves de instancias en Smalltalk. En la realidad tenemos objetos concretos y esas cosas concretas pueden mappearse como instancias en un modelo. Cabe mencionar que es distinta la idea que tenemos de cada objeto en la realidad versus ese objeto concreto en si mismo. La manera de representar la idea de ese objeto en la realidad a Smalltalk surge a traves de utilizar clases en el modelo.
+
+Modelo --- Realidad
+
+Instancias <-- Objetos Concretos
+
+Clases <-- Idea de Objetos
+
+
