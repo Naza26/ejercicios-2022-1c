@@ -56,7 +56,88 @@ Colaboradores:
 
   - Ejemplo:
 
-...
+```
+  January/1/2019 distanceTo: March/21/2019.
+```
+El **objeto**
+
+```
+  March/21/2019
+```
+
+esta colaborando con el **objeto**
+
+```
+  January/1/2019
+```
+ 
+ a traves de este mensaje
+ 
+```
+  distanceTo:
+```
+
+Closure:
+
+Objeto que representa un bloque de código
+Diferencia con método: No está asociado a un mensaje (es anónimo)
+Representan conjunto de colaboraciones.
+Estan bindeados al contexto. El closure esta unido al contexto.
+
+Ejemplo:
+
+```
+  m1
+      |t1 myClosure|
+      t1 := 1.
+      myClosure := [t1 := t1 + 1].
+      ^myClosure
+```
+
+Si hago
+
+```
+  m1 value.
+```
+
+El resultado sera:
+
+```
+  m1 value. 2
+```
+
+Si hago nuevamente 
+
+```
+  m1 value.
+```
+
+Devolvera:
+
+```
+ m1 value. 3
+```
+
+Acerca de los metodos y mensajes en smalltalk
+
+```
+  nombreMensaje
+    "comentarios"
+    |respuesta|
+    respuesta := 'Hello world'
+    ^respuesta
+```
+
+El ```^``` vendria a remplazar el return.
+
+Se asigna el valor a una variable temporal con ```:=``` o tambien con ```_```.
+
+Las variables se declaran entre ```| |```
+
+Podemos concatenar strings a traves de ```,```
+
+El punto separa las colaboraciones. Es una forma de decir que viene otra colaboración luego del ```.```
+
 
 Subclasificación
 
