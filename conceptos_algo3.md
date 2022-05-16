@@ -1,15 +1,17 @@
-**Conceptos fundamentales**
+## **Conceptos fundamentales**
 
-Software / Programa: Modelo computable de un dominio de problema de la realidad (vs Secuencia de instrucciones)
+**Software / Programa**
 
-Paradigma de Objetos: Objetos que colaboran entre sí mediante el envío de mensajes para resolver un problema.
+- Modelo computable de un dominio de problema de la realidad (vs Secuencia de instrucciones)
 
-Desarrollo de software:
+- Paradigma de Objetos: Objetos que colaboran entre sí mediante el envío de mensajes para resolver un problema.
 
-Proceso de aprendizaje, iterativo e incremental
-Eje descriptivo, funcional e implementativo. Foco en eje descriptivo y funcional.
+**Desarrollo de software:**
 
-Filosofía Smalltalk:
+- Proceso de aprendizaje, iterativo e incremental
+- Eje descriptivo, funcional e implementativo. Foco en eje descriptivo y funcional.
+
+**Filosofía Smalltalk:**
 - Ambiente de aprendizaje
 - Fundacional del paradigma
 - Ambiente vivo
@@ -17,15 +19,15 @@ Filosofía Smalltalk:
 - Feedback inmediato
 - “Todo es un objeto”
 
-Conceptos del paradigma
+## **Conceptos del paradigma**
 
-Objeto:
+**Objeto:**
 
 - Representación de un ente de un dominio de problema
 - Se define a partir de los mensajes que sabe responder.
 - Nueva definición (más precisa): Representación del rol que desempeña un ente de la realidad en el contexto de un dominio de problema
 
-Mensaje:
+**Mensaje:**
 
 - Define el QUE de un objeto
 - Define una responsabilidad
@@ -33,28 +35,40 @@ Mensaje:
 - Conjunto de mensajes define la escencia de un objeto
 - Son objetos
 
-Método:
+**Método:**
 
 - Implementación de un mensaje
 - Representa un conjunto de colaboraciones
 - Define el COMO
 - 1 mensaje -> 1 o más métodos asociados
 - Son objetos
-- self: Pseudo-variable que hace referencia al objeto receptor en el contexto de un método.
+- ```self```: Pseudo-variable que hace referencia al objeto receptor en el contexto de un método.
 
-Colaboradores:
+**Colaboradores:**
 
 - Otro objeto con el que voy a colaborar. Relación de conocimiento. Variables.
 - También conocido como variables
 - Interno: Lo conozco siempre, relación de cercanía (variable de instancia)
 - Externo: Colabora para un mensaje puntual (parámetro)
-- 4 caracteristicas de una colaboración:
+- **4 caracteristicas de una colaboración:**
 
-  - Sincrónica: Se envia un mensaje y esperamos que el mismo sea respondido. No continuamos con la siguiente colaboracion.
+  - **Sincrónica:** Se envia un mensaje y esperamos que el mismo sea respondido. No continuamos con la siguiente colaboracion.
 
-  - Dirigida: Envio un mensaje que va a un objeto receptor. Al cual se a quien.
+  - **Dirigida:** Envio un mensaje que va a un objeto receptor. Al cual se a quien.
 
   - Ejemplo:
+    ```
+      AlanTuring dateOfBirth.
+    ```
+
+  | Receptor  | Mensaje | Emisor |
+  | ------------- | ------------- |------------- |
+  | AlanTuring  | dateOfBirth  | Yo en el ambiete|
+
+
+  - **Siempre tiene se responde un objeto:** En el caso de ```smalltalk``` si uno no pone el ```return``` explícito responde ```self```.
+
+  - **Receptor desconoce al emisor:** La respuesta a una colaboración es independiente del emisor.
 
 ```
   January/1/2019 distanceTo: March/21/2019.
