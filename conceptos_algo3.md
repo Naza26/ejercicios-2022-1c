@@ -91,7 +91,7 @@ esta colaborando con el **objeto**
   distanceTo:
 ```
 
-Closure:
+**Closure:**
 
 Objeto que representa un bloque de código
 Diferencia con método: No está asociado a un mensaje (es anónimo)
@@ -153,7 +153,9 @@ Podemos concatenar strings a traves de ```,```
 El punto separa las colaboraciones. Es una forma de decir que viene otra colaboración luego del ```.```
 
 
-Subclasificación
+## **Otros Conceptos Importantes del Paradigma**
+
+**Subclasificación**
 
 Clase: Objeto que representa un concepto. Ej: Número, Auto.
 
@@ -166,7 +168,7 @@ Subclasificación:
 Mensajes abstracto: 
 - No tiene método asociado (en Smalltalk, creamos el método pero lo implementamos con “self subclassResponsibility”)
 
-Heurísticas de diseño
+**Heurísticas de diseño**
 - Modelar 1:1 entre ente de la realidad y objeto.
 - Buscamos que el conjunto de mensajes sea minimal -> Bajo acoplamiento, alta cohesión.
 - Guiarnos por el aspecto funcional conduce a buenos modelos.
@@ -175,16 +177,19 @@ Heurísticas de diseño
 - Evitar romper encapsulamiento.
 - Favorecer composicion/delegacion por sobre subclasificacion/herencia.
 
-Algoritmo para Quitar código repetido
+**Algoritmo para Quitar código repetido**
 
 - Copiar lo repetido a otro lado
 - Parametrizar lo que cambia
 - Nombrar la nueva abstraccion
 - Usar la nueva abstraccion
 
-Buenas prácticas
+**Buenas prácticas**
 - Categorizar los mensajes
 - Implementar mensajes abstractos con “self subclassResponsibility”
+
+
+## **Notas Tomadas en Clase**
 
 Heuristica:
 
